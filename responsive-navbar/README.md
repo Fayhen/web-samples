@@ -1,0 +1,1 @@
+This is a sample responsive navbar design. Is is a subsection of a [Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3) project that was coded following Kevin Powell's [Responsive navbar tutorial using HTML CSS & JS](https://youtu.be/HbBMp6yUXO0).

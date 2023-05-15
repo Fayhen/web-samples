@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <script src="nav.js" defer></script>
+  <title>Responsive navbar</title>
+</head>
+<body>
+  <header class="primary-header flex">
+    <div>
+      Welcome
+    </div>
+
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+      <span class="sr-only">Toggle</span>
+    </button>
+
+    <nav>
+      <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+        <li>
+          <a href="index.html">
+            <span aria-hidden="true">00</span>Home
+          </a>
+        </li>
+        <li>
+          <a href="pageA.html">
+            <span aria-hidden="true">01</span>Page A
+          </a>
+        </li>
+        <li>
+          <a href="pageB.html">
+            <span aria-hidden="true">02</span>Page B
+          </a>
+        </li>
+        <li>
+          <a href="pageC.html">
+            <span aria-hidden="true">03</span>Page C
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</body>
+</html>
